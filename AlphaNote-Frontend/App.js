@@ -1,10 +1,17 @@
 import  React from 'react';
-import Login from './src/components/views/Login';
+import { NavigationContainer } from '@react-navigation/native';
+import MainStack from './src/navigators/MainStack';
+import { Provider } from 'react-redux'; //componente de comunicação
+
+//const AppContainer = createAppContainer();
 
 const App = () => {
-
   return (
-     <Login/>
+    //<Provider>
+      <NavigationContainer>
+        <MainStack/>
+      </NavigationContainer> 
+    //</Provider>
   );
 }
 

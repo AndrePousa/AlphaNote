@@ -1,0 +1,25 @@
+	React-Native.
+
+	Project libraries
+
+*Instalando a biblioteca de navagação
+npm install @react-navigation/native
+
+*3Maneiras de navegar pelas telas
+-StackNavigator => caixa que contem as telas. 
+npm intall @react-navigation/stack
+-TabNavigator => Cria tabs  
+-DrawerNavigator => Menu de telas 
+
+--se tiver problemas => npm install --save react-native-gesture-handle
+npm install react-native-screens react-native-safe-area-context
+--------------------------------------------------------------------------
+Rodar aplicação no smartphone.
+
+Prompt de comando.
+	adb devices = verifica os dispositivos conectados 
+
+	react-native run-android = roda o aplicativo
+-------------------------------------------------------------------------
+*redux
+npm intall react-redux --save
